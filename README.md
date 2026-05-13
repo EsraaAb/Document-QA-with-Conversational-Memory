@@ -33,10 +33,8 @@ A local, privacy-focused tool that lets you upload documents (PDF/TXT) and ask q
 
 # Installation: 
 1) Install Ollama for windows: https://ollama.com 
-          
           OR
-
-   install Ollama for Linux : curl -fsSL https://ollama.com/install.sh | sh
+install Ollama for Linux : curl -fsSL https://ollama.com/install.sh | sh
 
 2) Pull The model:
 
@@ -81,9 +79,12 @@ Answer: "Supervised, unsupervised, and reinforcement learning"
 8. Memory: Conversation history is maintained for follow-up questions
 
 
+<img width="1408" height="768" alt="Project Workflow" src="https://github.com/user-attachments/assets/f05a78a1-fc2c-40d4-b97a-4f316b62c403" />
+
+
 # Files
-qa_system.py - Core question answering logic 
-app.py - Gradio web interface
+qa_system.py: Core question answering logic 
+app.py: Gradio web interface
 
 
 # Future Improvements
