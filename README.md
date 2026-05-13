@@ -83,8 +83,8 @@ Answer: "Supervised, unsupervised, and reinforcement learning"
 
 
 # Files
-qa_system.py: Core question answering logic 
-app.py: Gradio web interface
+- qa_system.py: Core question answering logic 
+- app.py: Gradio web interface
 
 
 # Future Improvements
