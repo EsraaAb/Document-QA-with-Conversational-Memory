@@ -14,7 +14,7 @@ class DocumentQA:
     ''' 
     This function is the constructor function of the Documnet QA class. 
     It initializes the class with the following parameters:
-      1) model name : it is the model used to generate the answer for the question asked by the user. The default value is "llama3.1".
+      1) model name : it is the model used to generate the answer for the question asked by the user. The default value is "phi3".
       2) Embedding model : it is the model used to create the embeddings for the chunks of text extracted from the document. 
       it creates sentence embeddings using the sentence transformer library. It maps sentences & paragraphs to a 384 dimensional dense vector space and can be used for tasks like clustering or semantic search. 
       
